@@ -1,4 +1,5 @@
 import CustomFeat from "@/components/CustomFeat";
+import InputForImgs from "@/components/InputForImgs";
 import HeroInput from "@/components/InputText";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
    <div>
     <HeroInput />
     <CustomFeat />
+    <InputForImgs />
    </div>
    
   );
